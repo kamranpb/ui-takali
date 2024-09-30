@@ -1,0 +1,28 @@
+.navbar {
+  width: 1300px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: 100px;
+  }
+}
+
+.footer {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #390000;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(165, 252, 206);
+    font-weight: 600;
+    width: 1300px;
+  }
+}
